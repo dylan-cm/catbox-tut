@@ -5,8 +5,10 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.light().copyWith(
-        accentColor: Colors.pinkAccent
+      theme: ThemeData(
+        primaryColor: Colors.blue,
+        accentColor: Colors.pinkAccent,
+        fontFamily: 'Ubuntu'
       ),
       home: CatList(),
     );

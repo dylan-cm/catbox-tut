@@ -32,7 +32,7 @@ class _CatListTitle extends StatelessWidget {
       style: TextStyle(
         color: Colors.white,
         fontWeight: FontWeight.bold,
-        fontSize: 32
+        fontSize: 130
       ),
     );
   }
