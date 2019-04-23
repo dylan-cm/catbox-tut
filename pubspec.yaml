@@ -27,3 +27,7 @@ flutter:
         - asset: fonts/Ubuntu-Medium.ttf
         - asset: fonts/Ubuntu-MediumItalic.ttf
         - asset: fonts/Ubuntu-Regular.ttf
+    
+  assets:
+    - assets/cats.json
+    - images/profile_header_background.png
